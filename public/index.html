@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="center">
+        <div class="content">
+            <h1>welcome to the Quiz</h1>
+            <h2>You will get some questions and you should choice one answer for each question. 
+                You have to enter your name and your email to be able to practice your knowledge. 
+                Click on the below button to start.</h2>
+            <form class="form">
+                <input type="text" class="name display" id="userN" placeholder="Your Name" oninput="checkUserName()" />
+                <input type="text" class="lastName display" id="lastN" placeholder="Your Last Name" oninput="checkUserLastName()"/>
+                <input type="text" class="email display"  id="userEmail" placeholder="Email" oninput="checkInputEmail()"/>
+                <button class="submit display"   type = "sumbit"  onclick="clickButton()" >Let's Start</button>
+                <a href="quizes.html" id="nextPage"></a>
+            </form> 
+        </div>
+    </div>
+    <script src="/javaScript/script.js"></script>
+</body>
+</html>
